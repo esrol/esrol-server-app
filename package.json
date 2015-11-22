@@ -1,0 +1,38 @@
+{
+  "name": "esrol-server-app",
+  "description": "Later",
+  "main": "index.js",
+  "author": "Ivaylo Ivanov <ivaylo.ivanov.ipi@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/esrol/esrol-server-app"
+  },
+  "bugs": {
+    "url": "https://github.com/esrol/esrol-server-app"
+  },
+  "version": "0.0.1",
+  "license": "MIT",
+  "engines": {
+    "node": ">= 4.0.0"
+  },
+  "config": {},
+  "scripts": {
+    "test": "node_modules/.bin/mocha ./tests/*.js"
+  },
+  "dependencies": {
+    "esrol-autoloader": "0.0.1",
+    "esrol-errors": "^0.3.4",
+    "esrol-initializer": "0.0.8",
+    "esrol-logger": "0.0.6",
+    "esrol-middlewares": "^0.1.2",
+    "esrol-router": "0.0.3",
+    "esrol-servers": "0.0.2"
+  },
+  "devDependencies": {
+    "chai": "^3.4.0",
+    "mocha": "^2.3.3",
+    "sinon": "^1.17.2",
+    "mocha-sinon": "^1.1.4",
+    "debug": "^2.2.0"
+  }
+}
