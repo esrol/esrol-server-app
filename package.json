@@ -10,7 +10,7 @@
   "bugs": {
     "url": "https://github.com/esrol/esrol-server-app"
   },
-  "version": "0.0.1",
+  "version": "0.0.2",
   "license": "MIT",
   "engines": {
     "node": ">= 4.0.0"
@@ -20,7 +20,7 @@
     "test": "node_modules/.bin/mocha ./tests/*.js"
   },
   "dependencies": {
-    "esrol-autoloader": "0.0.1",
+    "esrol-autoloader": "0.0.2",
     "esrol-errors": "^0.3.4",
     "esrol-initializer": "0.0.8",
     "esrol-logger": "0.0.6",
