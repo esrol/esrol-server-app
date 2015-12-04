@@ -17,7 +17,9 @@
   },
   "config": {},
   "scripts": {
-    "test": "node_modules/.bin/mocha ./tests/*.js"
+    "test": "node_modules/.bin/mocha ./tests/test",
+    "coverage": "istanbul cover node_modules/mocha/bin/_mocha ./tests/test",
+    "coveralls": "cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage"
   },
   "dependencies": {
     "esrol-autoloader": "0.0.2",
@@ -30,6 +32,8 @@
   },
   "devDependencies": {
     "chai": "^3.4.0",
+    "coveralls": "^2.11.4",
+    "istanbul": "^0.4.1",
     "mocha": "^2.3.3",
     "sinon": "^1.17.2",
     "mocha-sinon": "^1.1.4",
