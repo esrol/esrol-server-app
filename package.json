@@ -10,7 +10,7 @@
   "bugs": {
     "url": "https://github.com/esrol/esrol-server-app"
   },
-  "version": "0.0.4",
+  "version": "0.0.5",
   "license": "MIT",
   "engines": {
     "node": ">= 4.0.0"
@@ -26,8 +26,8 @@
     "esrol-errors": "^0.3.4",
     "esrol-initializer": "0.0.8",
     "esrol-logger": "0.0.6",
-    "esrol-middlewares": "^0.1.2",
-    "esrol-router": "0.0.3",
+    "esrol-middlewares": "^0.1.9",
+    "esrol-router": "0.0.4",
     "esrol-servers": "0.0.2"
   },
   "devDependencies": {
