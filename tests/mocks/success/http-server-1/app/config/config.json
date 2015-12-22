@@ -6,7 +6,7 @@
   "servers": {
     "http": {
       "enabled": true,
-      "port": 3333,
+      "port": 3332,
       "methods": ["get", "put", "post", "delete"],
       "webSockets": false,
       "cluster": false

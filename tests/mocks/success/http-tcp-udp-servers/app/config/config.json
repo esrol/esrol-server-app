@@ -1,0 +1,29 @@
+{
+  "cluster": {
+    "enabled": true,
+    "cores": 2
+  },
+  "servers": {
+    "http": {
+      "enabled": true,
+      "port": 3337,
+      "methods": ["get", "put", "post", "delete"],
+      "webSockets": false,
+      "cluster": true
+    },
+    "https": {
+      "enabled": false
+    },
+    "tcp": {
+      "enabled": true,
+      "port": 4334,
+      "allowHalfOpen": false,
+      "pauseOnConnect": false
+    },
+    "udp": {
+      "type": "udp4",
+      "enabled": true,
+      "port": 5335
+    }
+  }
+}

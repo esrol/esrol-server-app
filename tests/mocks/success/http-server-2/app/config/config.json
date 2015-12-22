@@ -16,14 +16,14 @@
     },
     "tcp": {
       "enabled": false,
-      "port": 3334,
+      "port": 4444,
       "allowHalfOpen": false,
       "pauseOnConnect": false
     },
     "udp": {
       "type": "udp4",
       "enabled": false,
-      "port": 3335
+      "port": 5555
     }
   }
 }
