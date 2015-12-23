@@ -7,6 +7,12 @@
     "type": "git",
     "url": "git://github.com/esrol/esrol-server-app"
   },
+  "keywords": [
+    "app",
+    "application",
+    "server",
+    "esrol"
+  ],
   "bugs": {
     "url": "https://github.com/esrol/esrol-server-app"
   },
@@ -22,13 +28,13 @@
     "coveralls": "cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage"
   },
   "dependencies": {
-    "esrol-autoloader": "0.0.2",
+    "esrol-autoloader": "0.0.3",
     "esrol-errors": "0.3.4",
     "esrol-initializer": "0.1.0",
     "esrol-logger": "0.0.6",
     "esrol-middlewares": "^0.1.9",
     "esrol-router": "0.0.4",
-    "esrol-servers": "0.0.2"
+    "esrol-servers": "0.0.3"
   },
   "devDependencies": {
     "chai": "^3.4.0",
