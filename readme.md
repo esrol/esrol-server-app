@@ -2,35 +2,7 @@
 [![Build Status][travis-image]][travis-url]
 [![Test coverage][coveralls-image]][coveralls-url]
 
-# esrol-server-app
-A wrapper
-
-## Installation
-
-```sh
-$ npm install --save esrol-server-app
-```
-## Node Version Compatibility
-
-| Node Version |
-| ---- |
-| >= 4.x |
-
-## Tests
-
-  To run the test suite, first install the dependencies, then run `npm test`:
-
-```bash
-$ npm install
-$ npm test
-```
-  Note: *The test coverage is 100%, but most of the needed tests are dedicated to its child repositories, since this is a wrapper module*
-
-## License
-
-[MIT](https://github.com/esrol/esrol-server-app/blob/master/LICENSE)
-
-
+The [Wiki](https://github.com/esrol/esrol-server-app/wiki) contains everything that you need.
 
 [npm-image]: https://badge.fury.io/js/esrol-server-app.svg
 [npm-url]: https://npmjs.org/package/esrol-server-app
