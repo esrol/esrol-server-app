@@ -1,6 +1,6 @@
 {
   "name": "esrol-server-app",
-  "description": "Later",
+  "description": "A wrapper of all Esrol server components for creating performance efficient, well structured - by following \"convention over configuration\" approach, but also configurable, server-side applications.",
   "main": "index.js",
   "author": "Ivaylo Ivanov <ivaylo.ivanov.ipi@gmail.com>",
   "repository": {
@@ -16,7 +16,7 @@
   "bugs": {
     "url": "https://github.com/esrol/esrol-server-app"
   },
-  "version": "0.0.7",
+  "version": "0.0.8",
   "license": "MIT",
   "engines": {
     "node": ">= 4.0.0"
@@ -28,13 +28,12 @@
     "coveralls": "cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage"
   },
   "dependencies": {
-    "esrol-autoloader": "0.0.3",
-    "esrol-errors": "0.3.4",
-    "esrol-initializer": "0.1.0",
-    "esrol-logger": "0.0.6",
-    "esrol-middlewares": "^0.1.9",
-    "esrol-router": "0.0.4",
-    "esrol-servers": "0.0.3"
+    "esrol-autoloader": "0.0.5",
+    "esrol-errors": "0.3.6",
+    "esrol-initializer": "0.1.1",
+    "esrol-middlewares": "0.2.0",
+    "esrol-router": "0.0.5",
+    "esrol-servers": "0.0.4"
   },
   "devDependencies": {
     "chai": "^3.4.0",
