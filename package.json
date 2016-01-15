@@ -1,6 +1,6 @@
 {
   "name": "esrol-server-app",
-  "description": "A wrapper of all Esrol server components for creating performance efficient, well structured - by following \"convention over configuration\" approach, but also configurable, server-side applications.",
+  "description": "A wrapper of all Esrol server components for creating performance efficient, well structured - by following 'convention over configuration' approach, but also configurable, server-side applications.",
   "main": "index.js",
   "author": "Ivaylo Ivanov <ivaylo.ivanov.ipi@gmail.com>",
   "repository": {
