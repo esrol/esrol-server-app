@@ -226,19 +226,6 @@ describe('App Fail...', () => {
     });
   });
 
-  describe('Creating http server with broken http route', () => {
-    it(should, () => {
-      expect(() => {
-        try {
-          require('./mocks/fail/http-server-with-broken-route/app');
-        } catch (e) {
-          // console.log (e)
-          throw e;
-        }
-      }).to.throw(Error);
-    });
-  });
-
   describe('Creating tcp server without tcp folder and index class', () => {
     it(should, () => {
       expect(() => {
